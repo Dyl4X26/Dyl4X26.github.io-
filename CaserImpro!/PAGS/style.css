@@ -1,0 +1,57 @@
+/*index*/
+body{
+    background: lightgray;
+}
+
+.titulo-especial{
+    color: white;
+    margin: 3px;
+}
+
+header{
+    background-color: rgb(7, 100, 7);
+    
+}
+
+footer{
+    background-color: rgba(61, 60, 60, 0.856);
+}
+
+
+.image-zoom{
+    transition: transform 0.3s ease;
+}
+.image-zoom:hover{
+    transform: scale(1.2)
+}
+.image-zoom{
+    margin-left: 20px;
+    
+}
+.card{
+    background-color: rgba(129, 127, 127, 0.541);
+    width: 1400px;
+    margin: 0 auto;
+}
+.card2{
+    background-color:  rgba(129, 127, 127, 0.541);
+    width: 300px;
+    border: 3px solid;
+    padding: 5px;
+}
+h1{
+    font-family: arial;
+}
+
+h2{
+    font-family: arial;
+}
+p{
+    font-family: arial;
+}
+
+.contenedor_padre{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
